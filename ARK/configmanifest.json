@@ -828,10 +828,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Maximum Structures",
+        "DisplayName": "Structures maximales",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "Sets the maximum number of structures that can be constructed within a certain range",
+        "Description": "Définit le nombre maximum de structures pouvant être construites dans un certain rayon d'action.",
         "Keywords": "maximum,structures,limit,themaxstructuresinrange",
         "FieldName": "TheMaxStructuresInRange",
         "InputType": "number",
@@ -843,10 +843,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Maximum Tribute Items",
+        "DisplayName": "Maximum d'objets de tribut",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "Sets the maximum number of slots for uploaded items and resources",
+        "Description": "Définit le nombre maximum d'emplacements pour les objets et les ressources téléchargés.",
         "Keywords": "maximum,tribute,items,limit,maxtributeitems",
         "FieldName": "MaxTributeItems",
         "InputType": "number",
@@ -858,10 +858,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Maximum Players In Tribe",
+        "DisplayName": "Nombre maximum de joueurs dans la tribu",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "Sets the maximum number of players in each tribe. 0 = no limit, 1 = tribes effectively disabled",
+        "Description": "Définit le nombre maximum de joueurs dans chaque tribu. 0 = pas de limite, 1 = les tribus sont effectivement désactivées",
         "Keywords": "maximum,tribe,players,limit,maxnumberofplayersintribe",
         "FieldName": "MaxNumberOfPlayersInTribe",
         "InputType": "number",
@@ -874,10 +874,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Prevent Tribe Alliances",
+        "DisplayName": "Prévenir les alliances entre tribus",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, tribes will be prevented from creating alliances",
+        "Description": "Si cette option est choisie, les tribus ne pourront pas créer d'alliances.",
         "Keywords": "prevent,tribe,alliances,preventtribealliances",
         "FieldName": "PreventTribeAlliances",
         "InputType": "checkbox",
@@ -891,10 +891,10 @@
         }
     },
     {
-        "DisplayName": "Disable PvP Friendly Fire",
+        "DisplayName": "Désactiver le tir alié",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, prevents friendly fire among tribe-mates, tribe-creatures and tribe-structures on PvP servers",
+        "Description": "Si cette option est activée, elle empêche les tirs amis entre les membres de la tribu, les créatures de la tribu et les structures de la tribu sur les serveurs JcJ.",
         "Keywords": "pvp,friendly,fire,bdisablefriendlyfire",
         "FieldName": "bDisableFriendlyFire",
         "InputType": "checkbox",
@@ -908,10 +908,10 @@
         }
     },
     {
-        "DisplayName": "Disable PvE Friendly Fire",
+        "DisplayName": "Désactiver le tir ami en JcE",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, prevents friendly fire among tribe-mates, tribe-creatures and tribe-structures on PvE servers",
+        "Description": "S'il est activé, il empêche les tirs amis entre les membres de la tribu, les créatures de la tribu et les structures de la tribu sur les serveurs PvE.",
         "Keywords": "pve,friendly,fire,bpvedisablefriendlyfire",
         "FieldName": "bPvEDisableFriendlyFire",
         "InputType": "checkbox",
@@ -925,10 +925,10 @@
         }
     },
     {
-        "DisplayName": "Enable PvP Gamma",
+        "DisplayName": "Activer le gamma PvP",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, allows gamma changes in PvP mode",
+        "Description": "Si cette option est activée, elle autorise les changements de gamma en mode JcJ.",
         "Keywords": "pvp,gamma,enablepvpgamma",
         "FieldName": "EnablePVPGamma",
         "InputType": "checkbox",
@@ -942,10 +942,10 @@
         }
     },
     {
-        "DisplayName": "Disable PvE Gamma",
+        "DisplayName": "Désactiver le Gamma PvE",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, prevents gamma changes in PvE mode",
+        "Description": "Si cette option est activée, elle empêche les changements de gamma en mode PvE.",
         "Keywords": "pve,gamma,disablepvegamma",
         "FieldName": "DisablePVEGamma",
         "InputType": "checkbox",
@@ -959,10 +959,10 @@
         }
     },
     {
-        "DisplayName": "Notify Player Join",
+        "DisplayName": "Notifier la venu d'un joueur",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, players will always be notified if someone joins the server",
+        "Description": "Si cette option est activée, les joueurs seront toujours avertis lorsque quelqu'un rejoint le serveur.",
         "Keywords": "notify,player,join,alwaysnotifyplayerjoined",
         "FieldName": "AlwaysNotifyPlayerJoined",
         "InputType": "checkbox",
@@ -976,10 +976,10 @@
         }
     },
     {
-        "DisplayName": "Notify Player Leave",
+        "DisplayName": "Notifier le départ du joueur",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, players will always be notified if someone leaves the server",
+        "Description": "Si cette option est activée, les joueurs seront toujours informés si quelqu'un quitte le serveur.",
         "Keywords": "notify,player,leave,alwaysnotifyplayerleft",
         "FieldName": "alwaysNotifyPlayerLeft",
         "InputType": "checkbox",
@@ -993,10 +993,10 @@
         }
     },
     {
-        "DisplayName": "Enable Global Voice Chat",
+        "DisplayName": "Activer le chat vocal global",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, voice chat will be enabled globally",
+        "Description": "Si cette option est activée, le chat vocal sera activé globalement.",
         "Keywords": "voice,chat,globalvoicechat",
         "FieldName": "globalVoiceChat",
         "InputType": "checkbox",
@@ -1010,10 +1010,10 @@
         }
     },
     {
-        "DisplayName": "Enable Proximity Chat",
+        "DisplayName": "Activer le chat de proximité",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, only players near each other can see each other's chat messages",
+        "Description": "Si cette option est activée, seuls les joueurs proches les uns des autres peuvent voir les messages de chat des autres.",
         "Keywords": "proximity,chat,proximitychat",
         "FieldName": "proximityChat",
         "InputType": "checkbox",
@@ -1027,10 +1027,10 @@
         }
     },
     {
-        "DisplayName": "Allow PvE Cave Building",
+        "DisplayName": "Autoriser la construction de grottes en JcE",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, allows building in caves in PvE mode",
+        "Description": "Si cette option est activée, elle permet de construire dans les grottes en mode PvE.",
         "Keywords": "pve,cave,building,allowcavebuildingpve",
         "FieldName": "AllowCaveBuildingPVE",
         "InputType": "checkbox",
@@ -1044,10 +1044,10 @@
         }
     },
     {
-        "DisplayName": "Allow PvE Flyer Carry",
+        "DisplayName": "Autoriser le portage de volants en JcE",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, flyers will be permitted to pick up other creatures and players when mounted by a player in PvE mode",
+        "Description": "Si cette option est activée, les vollants seront autorisés à ramasser d'autres créatures et joueurs lorsqu'ils sont montés par un joueur en mode JcE.",
         "Keywords": "pve,flyer,carry,allowflyercarrypve",
         "FieldName": "AllowFlyerCarryPvE",
         "InputType": "checkbox",
@@ -1061,10 +1061,10 @@
         }
     },
     {
-        "DisplayName": "Allow Flyer Speed Levelling",
+        "DisplayName": "Autoriser le niveau de vitesse des follants",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, flyers can have their movement speed levelled up",
+        "Description": "Si cette option est activée, la vitesse de déplacement des volants peut être augmentée.",
         "Keywords": "flyer,movement,speed,level,up,allowflyerspeedleveling",
         "FieldName": "AllowFlyerSpeedLeveling",
         "InputType": "checkbox",
@@ -1078,10 +1078,10 @@
         }
     },
     {
-        "DisplayName": "Allow Cave Flyers",
+        "DisplayName": "Permettre le vole dans les grottes",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, flyers will always be allowed into caves",
+        "Description": "Si cette option est activée, les volants seront toujours autorisés à pénétrer dans les grottes.",
         "Keywords": "allow,cave,flyers,forceallowcaveflyers",
         "FieldName": "ForceAllowCaveFlyers",
         "InputType": "checkbox",
@@ -1095,10 +1095,10 @@
         }
     },
     {
-        "DisplayName": "Disable Wild Creature Spawn",
+        "DisplayName": "Désactiver l'apparition de créatures sauvages",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, wild creatures will not be spawned in the server. For an existing server, existing creatures need to be wiped with the admin command \"destroywilddinos\"",
+        "Description": "Si cette option est activée, les créatures sauvages ne seront pas produites sur le serveur. Pour un serveur existant, les créatures existantes doivent être effacées à l'aide de la commande admin \"destroywilddinos\"",
         "Keywords": "no,creatures,spawn,nodinos",
         "FieldName": "nodinos",
         "InputType": "checkbox",
@@ -1112,10 +1112,10 @@
         }
     },
     {
-        "DisplayName": "Prevent Hibernation",
+        "DisplayName": "Prévenir l'hibernation",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, creatures in inactive zones will not hibernate, at the cost of performance and memory usage",
+        "Description": "Si cette option est activée, les créatures situées dans des zones inactives n'hiberneront pas, au détriment des performances et de l'utilisation de la mémoire.",
         "Keywords": "prevent,hibernation,preventhibernation",
         "FieldName": "PreventHibernation",
         "InputType": "checkbox",
@@ -1129,10 +1129,10 @@
         }
     },
     {
-        "DisplayName": "Force Wild Creature Respawn On Start",
+        "DisplayName": "Forcer la réapparition des créatures sauvages au démarrage",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, all wild creatures that are not currently being tamed will be destroyed on server start",
+        "Description": "Si cette option est activée, toutes les créatures sauvages qui ne sont pas en train d'être apprivoisées seront détruites au démarrage du serveur.",
         "Keywords": "force,creature,respawn,forcerespawndinos",
         "FieldName": "ForceRespawnDinos",
         "InputType": "checkbox",
@@ -1146,10 +1146,10 @@
         }
     },
     {
-        "DisplayName": "Force Wild Creature Respawn At Interval",
+        "DisplayName": "Forcer les créatures sauvages à réapparaître à intervalles réguliers",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "Sets the period to force respawns of wild creatures to prevent certain types (like the Basilo and Spino) from becoming depopulated on long running servers, as well as removing any lingering event creatures. 0 = disabled",
+        "Description": "Définit le délai de réapparition des créatures sauvages afin d'éviter que certains types (comme le Basilo et le Spino) ne se dépeuplent sur les serveurs de longue durée, et d'éliminer les créatures événementielles persistantes. 0 = désactivé",
         "Keywords": "auto,force,respawn,wild,creatures,interval,serverautoforcerespawnwilddinosinterval",
         "FieldName": "ServerAutoForceRespawnWildDinosInterval",
         "InputType": "number",
@@ -1163,10 +1163,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Disable Tek Railgun",
+        "DisplayName": "Désactiver le Tek Railgun",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, the Tek Railgun will be disabled in PvP mode",
+        "Description": "Si cette option est activée, le canon à rail Tek sera désactivé en mode JcJ.",
         "Keywords": "disable,tek,railgun,disablerailgunpvp",
         "FieldName": "DisableRailgunPVP",
         "InputType": "checkbox",
@@ -1180,10 +1180,10 @@
         }
     },
     {
-        "DisplayName": "Disable Loot Crates",
+        "DisplayName": "Désactiver les caisses de butin",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, loot crates will not spawn. Artifact crates will still spawn",
+        "Description": "Si cette option est activée, les caisses de butin n'apparaîtront pas. Les caisses d'artefacts continueront à apparaître",
         "Keywords": "disable,loot,crates,disablelootcrates",
         "FieldName": "bDisableLootCrates",
         "InputType": "checkbox",
@@ -1197,10 +1197,10 @@
         }
     },
     {
-        "DisplayName": "Player Radius For No Resource Replenish",
+        "DisplayName": "Rayon d'action du joueur sans réapprovisionnement en ressources",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "Sets the distance around players where resources are not allowed to grow back. Values higher than 1 increase it, values between 0 and 1 reduce it",
+        "Description": "Définit la distance autour des joueurs où les ressources ne sont pas autorisées à repousser. Les valeurs supérieures à 1 l'augmentent, les valeurs comprises entre 0 et 1 la réduisent.",
         "Keywords": "player,resource,radius,resourcenoreplenishradiusplayers",
         "FieldName": "ResourceNoReplenishRadiusPlayers",
         "InputType": "number",
@@ -1213,10 +1213,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Structure Radius For No Resource Replenish",
+        "DisplayName": "Rayon de structure pour le réapprovisionnement sans ressource",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "Sets the distance around structures where resources are not allowed to grow back. Values higher than 1 increase it, values between 0 and 1 reduce it",
+        "Description": "Définit la distance autour des structures où les ressources ne sont pas autorisées à repousser. Les valeurs supérieures à 1 l'augmentent, les valeurs comprises entre 0 et 1 la réduisent.",
         "Keywords": "structure,resource,radius,resourcenoreplenishradiusstructures",
         "FieldName": "ResourceNoReplenishRadiusStructures",
         "InputType": "number",
@@ -1229,10 +1229,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Disable PvE Creature Decay",
+        "DisplayName": "Désactiver la décomposition des créatures en JcE",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, the gradual (7 days) decay (or unclaiming) of creature ownership will be disabled in PvE mode. Otherwise, every creature can be claimed by any player",
+        "Description": "Si cette option est activée, le déclin progressif (7 jours) de la propriété des créatures sera désactivé en mode JcE. Sinon, chaque créature peut être réclamée par n'importe quel joueur",
         "Keywords": "pve,dino,decay,unclaim,disabledinodecaypve",
         "FieldName": "DisableDinoDecayPvE",
         "InputType": "checkbox",
@@ -1246,10 +1246,10 @@
         }
     },
     {
-        "DisplayName": "Enable PvP Creature Decay",
+        "DisplayName": "Activer la décomposition des créatures JcJ",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, the gradual decay (or unclaiming) of creature ownership will be enabled in PvP mode",
+        "Description": "Si cette option est activée, le déclin progressif (ou la non-réclamation) de la propriété des créatures sera activé en mode JcJ.",
         "Keywords": "pvp,dino,decay,unclaim,pvpdinodecay",
         "FieldName": "PvPDinoDecay",
         "InputType": "checkbox",
@@ -1263,10 +1263,10 @@
         }
     },
     {
-        "DisplayName": "Enable Passive Defence Damage",
+        "DisplayName": "Activer les dégâts de la défense passive",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, wild creatures and riderless creatures can take damage from passive defence structures like spikewalls",
+        "Description": "Si cette option est activée, les créatures sauvages et les créatures sans cavalier peuvent subir des dommages causés par les structures de défense passive telles que les murs d'épis.",
         "Keywords": "passive,defense,defence,damage,bpassivedefensesdamageriderlessdinos",
         "FieldName": "bPassiveDefensesDamageRiderlessDinos",
         "InputType": "checkbox",
@@ -1280,10 +1280,10 @@
         }
     },
     {
-        "DisplayName": "Prevent Diseases",
+        "DisplayName": "Prévenir les maladies",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, diseases will be completely disabled on the server",
+        "Description": "Si cette option est activée, les maladies seront complètement désactivées sur le serveur.",
         "Keywords": "prevent,diseases,preventdiseases",
         "FieldName": "PreventDiseases",
         "InputType": "checkbox",
@@ -1297,10 +1297,10 @@
         }
     },
     {
-        "DisplayName": "Disable Permanent Diseases",
+        "DisplayName": "Désactiver les maladies permanentes",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, diseases will not be permanent (they will be lost on respawn)",
+        "Description": "Si cette option est activée, les maladies ne seront pas permanentes (elles seront perdues lors de la réapparition).",
         "Keywords": "non,permanent,diseases,nonpermanentdiseases",
         "FieldName": "NonPermanentDiseases",
         "InputType": "checkbox",
@@ -1314,10 +1314,10 @@
         }
     },
     {
-        "DisplayName": "Allow Care By Anyone",
+        "DisplayName": "Permettre les soins à toute personne",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, enables anyone to \"take care\" of baby creatures (cuddle etc), not just whomever imprinted on it",
+        "Description": "Si cette option est activée, n'importe qui peut « prendre soin » des bébés créatures (les câliner, etc.), et pas seulement la personne qui a imprimé sur l'animal.",
         "Keywords": "care,baby,creature,cuddle,imprint,allowanyonebabyimprintcuddle",
         "FieldName": "AllowAnyoneBabyImprintCuddle",
         "InputType": "checkbox",
@@ -1331,10 +1331,10 @@
         }
     },
     {
-        "DisplayName": "Disable Imprint Creature Buff",
+        "DisplayName": "Désactiver Imprint Creature Buff",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, disables the creature imprinting player Stat Bonus (where whomever specifically imprinted on the creature, and raised it to have an imprinting quality, gets extra damage/resistance buff)",
+        "Description": "S'il est activé, il désactive le bonus de statut du joueur qui imprime la créature (la personne qui a spécifiquement imprimé la créature et l'a élevée pour qu'elle ait une qualité d'impression, obtient un buff de dégâts/résistance supplémentaire).",
         "Keywords": "buff,creature,imprint,disableimprintdinobuff",
         "FieldName": "DisableImprintDinoBuff",
         "InputType": "checkbox",
@@ -1348,10 +1348,10 @@
         }
     },
     {
-        "DisplayName": "Destroy Unconnected Water Pipes",
+        "DisplayName": "Détruire les conduites d'eau non raccordées",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, water pipes will be destroyed automatically after two real-time days, if unconnected to any non-pipe (directly or indirectly) and no allied player is nearby",
+        "Description": "Si cette option est activée, les conduites d'eau seront détruites automatiquement après deux jours en temps réel, si elles ne sont pas connectées à une autre conduite (directement ou indirectement) et qu'aucun joueur allié ne se trouve à proximité.",
         "Keywords": "unconnected,water,pipes,destroy,destroyunconnectedwaterpipes",
         "FieldName": "DestroyUnconnectedWaterPipes",
         "InputType": "checkbox",
@@ -1365,10 +1365,10 @@
         }
     },
     {
-        "DisplayName": "Minimum Creature Re-upload Interval",
+        "DisplayName": "Intervalle minimum de rechargement des créatures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "Sets the cooldown period between allowed creature re-uploads",
+        "Description": "Définit la période de récupération entre les téléchargements de créatures autorisés.",
         "Keywords": "creature,upload,interval,minimumdinoreuploadinterval",
         "FieldName": "MinimumDinoReuploadInterval",
         "InputType": "number",
@@ -1382,10 +1382,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Auto Destroy Decayed Creatures",
+        "DisplayName": "Destruction automatique des créatures décomposées",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, claimable decayed creatures will be auto-destroyed on load, rather than remaining around as claimable",
+        "Description": "Si cette option est activée, les créatures décomposées pouvant être revendiquées seront détruites automatiquement lors du chargement, au lieu de rester dans les parages en tant que créatures pouvant être revendiquées.",
         "Keywords": "destroy,auto,decay,creature,autodestroydecayeddinos",
         "FieldName": "AutoDestroyDecayedDinos",
         "InputType": "checkbox",
@@ -1399,10 +1399,10 @@
         }
     },
     {
-        "DisplayName": "Optimize Harvest Amount Multiplier",
+        "DisplayName": "Optimiser le multiplicateur du montant de la récolte",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, optimizes the server performance when using a higher Harvest Amount Multiplier, by reducing the bias towards yielding rarer items",
+        "Description": "Si cette option est activée, elle optimise les performances du serveur lors de l'utilisation d'un multiplicateur de quantité de récolte plus élevé, en réduisant la tendance à produire des objets plus rares.",
         "Keywords": "optimized,harvest,multiplier,useoptimizedharvestinghealth",
         "FieldName": "UseOptimizedHarvestingHealth",
         "InputType": "checkbox",
@@ -1416,10 +1416,10 @@
         }
     },
     {
-        "DisplayName": "Force Flyer Explosives",
+        "DisplayName": "Volant explosif",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, allows flyers to fly with C4 attached to them. Otherwise, except for Quetzal and Wyvern, they can't fly",
+        "Description": "Si elle est activée, elle permet aux volants de voler avec du C4 attaché à eux. Sinon, à l'exception du Quetzal et de la Wyvern, ils ne peuvent pas voler.",
         "Keywords": "flyer,explosives,forceflyerexplosives",
         "FieldName": "ForceFlyerExplosives",
         "InputType": "checkbox",
@@ -1433,10 +1433,10 @@
         }
     },
     {
-        "DisplayName": "Allow Multiple Attached C4",
+        "DisplayName": "Autoriser plusieurs C4 attachés",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If enabled, more than one C4 can be attached per creature",
+        "Description": "Si cette option est activée, il est possible d'attacher plus d'un C4 par créature.",
         "Keywords": "c4,multiple,attached,allowmultipleattachedc4",
         "FieldName": "AllowMultipleAttachedC4",
         "InputType": "checkbox",
@@ -1450,10 +1450,10 @@
         }
     },
     {
-        "DisplayName": "Allow Flying Stamina Recovery",
+        "DisplayName": "Permettre la récupération de l'endurance en vol",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, flyers can recover stamina when a player is standing on them instead of riding",
+        "Description": "Si cette option est activée, les volants peuvent récupérer de l'endurance lorsqu'un joueur se tient debout sur eux au lieu de les chevaucher.",
         "Keywords": "flying,stamina,recovery,allowflyingstaminarecovery",
         "FieldName": "AllowFlyingStaminaRecovery",
         "InputType": "checkbox",
@@ -1467,10 +1467,10 @@
         }
     },
     {
-        "DisplayName": "Disable Weather Fog",
+        "DisplayName": "Désactiver le brouillard météorologique",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, fog is disabled",
+        "Description": "S'il est activé, le brouillard est désactivé",
         "Keywords": "weather,fog,disableweatherfog",
         "FieldName": "DisableWeatherFog",
         "InputType": "checkbox",
@@ -1484,10 +1484,10 @@
         }
     },
     {
-        "DisplayName": "Enable Random Supply Crate Points",
+        "DisplayName": "Activer les points de caisse de ravitaillement aléatoires",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If enabled, supply drops will be in random locations. NOTE: This setting is known to cause artifacts to become inaccessible on the Ragnarok map",
+        "Description": "Si cette option est activée, les largages de fournitures se feront à des endroits aléatoires. REMARQUE : ce paramètre est connu pour rendre les artefacts inaccessibles sur la carte Ragnarok.",
         "Keywords": "random,supply,crate,points,randomsupplycratepoints",
         "FieldName": "RandomSupplyCratePoints",
         "InputType": "checkbox",
@@ -1501,10 +1501,10 @@
         }
     },
     {
-        "DisplayName": "Allow Foreign Creature Downloads on Aberration",
+        "DisplayName": "Autoriser les téléchargements de créatures étrangères sur Aberration",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
-        "Description": "If set, enables tribute download of non-native creatures on the Aberration map",
+        "Description": "Si cette option est activée, elle permet le téléchargement des créatures tribut non indigènes sur la carte Aberration.",
         "Keywords": "foreign,creature,download,crossarkallowforeigndinodownloads",
         "FieldName": "CrossARKAllowForeignDinoDownloads",
         "InputType": "checkbox",
@@ -1518,10 +1518,10 @@
         }
     },
     {
-        "DisplayName": "Day/Night Cycle Speed Multiplier",
+        "DisplayName": "Multiplicateur de vitesse du cycle jour/nuit",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for the server day/night cycle. The default value 1 sets the same speed as a singleplayer game, ie 1 minute real time = approx 28 minutes server time. A scale of 0.035 would set a day/night cycle of approx 24 hours real time",
+        "Description": "Définit le facteur d'échelle pour le cycle jour/nuit du serveur. La valeur par défaut 1 correspond à la même vitesse qu'un jeu solo, c'est-à-dire 1 minute en temps réel = environ 28 minutes en temps serveur. Une échelle de 0,035 correspond à un cycle jour/nuit d'environ 24 heures en temps réel.",
         "Keywords": "day,night,cycle,speed,multiplier,daycyclespeedscale",
         "FieldName": "DayCycleSpeedScale",
         "InputType": "number",
@@ -1533,10 +1533,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Day Time Speed Multiplier",
+        "DisplayName": "Multiplicateur de vitesse de jour",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for the length of each server day, relative to the length of each night. Lowering this value increases the day length",
+        "Description": "Définit le facteur d'échelle pour la durée de chaque jour du serveur, par rapport à la durée de chaque nuit. En diminuant cette valeur, on augmente la durée du jour",
         "Keywords": "day,time,speed,multiplier,daytimespeedscale",
         "FieldName": "DayTimeSpeedScale",
         "InputType": "number",
@@ -1548,10 +1548,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Night Time Speed Multiplier",
+        "DisplayName": "Multiplicateur de vitesse nocturne",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for the length of each server night, relative to the length of each day. Lowering this value increases the night length",
+        "Description": "Définit le facteur d'échelle pour la durée de chaque nuit du serveur, par rapport à la durée de chaque jour. En diminuant cette valeur, on augmente la durée de la nuit",
         "Keywords": "night,time,speed,multiplier,nighttimespeedscale",
         "FieldName": "NightTimeSpeedScale",
         "InputType": "number",
@@ -1563,10 +1563,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "XP Multiplier",
+        "DisplayName": "Multiplicateur d'XP",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for experience (XP) received by players, tribes and creatures for various actions. The default value 1 provides the same experience as a singleplayer game. Higher values increase XP amounts awarded, lower values decrease it",
+        "Description": "Définit le facteur d'échelle pour l'expérience (XP) reçue par les joueurs, les tribus et les créatures pour diverses actions. La valeur par défaut de 1 permet d'obtenir la même expérience que dans une partie à un seul joueur. Les valeurs plus élevées augmentent les quantités d'XP attribuées, les valeurs plus faibles les diminuent.",
         "Keywords": "xp,experience,multiplier,xpmultiplier",
         "FieldName": "XPMultiplier",
         "InputType": "number",
@@ -1578,10 +1578,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Player Food Drain Multiplier",
+        "DisplayName": "Multiplicateur de perte de nourriture pour le joueur",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for player characters' food consumption. Higher values increase food consumption (player characters get hungry faster)",
+        "Description": "Définit le facteur d'échelle pour la consommation de nourriture des personnages-joueurs. Des valeurs plus élevées augmentent la consommation de nourriture (les joueurs ont faim plus rapidement).",
         "Keywords": "player,food,drain,hunger,multiplier,playercharacterfooddrainmultiplier",
         "FieldName": "PlayerCharacterFoodDrainMultiplier",
         "InputType": "number",
@@ -1593,10 +1593,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Player Water Drain Multiplier",
+        "DisplayName": "Multiplicateur de drainage de l'eau du joueur",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for player characters' water consumption. Higher values increase water consumption (player characters get thirsty faster)",
+        "Description": "Définit le facteur d'échelle pour la consommation d'eau des personnages-joueurs. Des valeurs plus élevées augmentent la consommation d'eau (les personnages-joueurs ont soif plus rapidement).",
         "Keywords": "player,water,drain,thirst,multiplier,playercharacterwaterdrainmultiplier",
         "FieldName": "PlayerCharacterWaterDrainMultiplier",
         "InputType": "number",
@@ -1608,10 +1608,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Player Health Recovery Multiplier",
+        "DisplayName": "Multiplicateur de récupération de la santé du joueur",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for player characters' health recovery. Higher values increase the recovery rate (player characters heal faster)",
+        "Description": "Définit le facteur d'échelle pour la récupération de la santé des personnages-joueurs. Des valeurs plus élevées augmentent le taux de récupération (les personnages-joueurs guérissent plus vite).",
         "Keywords": "player,health,recovery,multiplier,playercharacterhealthrecoverymultiplier",
         "FieldName": "PlayerCharacterHealthRecoveryMultiplier",
         "InputType": "number",
@@ -1623,10 +1623,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Player Stamina Drain Multiplier",
+        "DisplayName": "Multiplicateur d'épuisement de l'endurance du joueur",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for player characters' stamina consumption. Higher values increase stamina consumption (player characters get tired faster)",
+        "Description": "Définit le facteur d'échelle pour la consommation d'endurance des personnages-joueurs. Des valeurs plus élevées augmentent la consommation d'endurance (les personnages-joueurs se fatiguent plus vite).",
         "Keywords": "player,stamina,drain,multiplier,playercharacterstaminadrainmultiplier",
         "FieldName": "PlayerCharacterStaminaDrainMultiplier",
         "InputType": "number",
@@ -1638,10 +1638,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Player Damage Multiplier",
+        "DisplayName": "Multiplicateur de dégâts du joueur",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for the damage that players cause with their attacks. The default value 1 causes normal damage. Higher values increase damage, lower values decrease it",
+        "Description": "Définit le facteur d'échelle pour les dégâts que les joueurs infligent avec leurs attaques. La valeur par défaut 1 provoque des dégâts normaux. Les valeurs supérieures augmentent les dégâts, les valeurs inférieures les diminuent",
         "Keywords": "player,damage,multiplier,playerdamagemultiplier",
         "FieldName": "PlayerDamageMultiplier",
         "InputType": "number",
@@ -1653,10 +1653,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Player Resistance Multiplier",
+        "DisplayName": "Multiplicateur de résistance du joueur",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for players' damage resistance when attacked. The default value 1 causes normal damage. Higher values decrease resistance, increasing damage per attack. Lower values increase it, reducing damage per attack",
+        "Description": "Définit le facteur d'échelle pour la résistance aux dégâts des joueurs lorsqu'ils sont attaqués. La valeur par défaut 1 provoque des dégâts normaux. Des valeurs plus élevées diminuent la résistance, augmentant les dégâts par attaque. Les valeurs inférieures l'augmentent, ce qui réduit les dégâts par attaque",
         "Keywords": "player,resistance,multiplier,playerresistancemultiplier",
         "FieldName": "PlayerResistanceMultiplier",
         "InputType": "number",
@@ -1668,10 +1668,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Creature Food Drain Multiplier",
+        "DisplayName": "Multiplicateur de drainage de nourriture de créature",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for creatures' food consumption. Higher values increase food consumption (creatures get hungry faster)",
+        "Description": "Définit le facteur d'échelle pour la consommation de nourriture des créatures. Des valeurs plus élevées augmentent la consommation de nourriture (les créatures ont faim plus rapidement).",
         "Keywords": "creature,food,drain,hunger,multiplier,dinocharacterfooddrainmultiplier",
         "FieldName": "DinoCharacterFoodDrainMultiplier",
         "InputType": "number",
@@ -1683,10 +1683,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Creature Health Recovery Multiplier",
+        "DisplayName": "Multiplicateur de récupération de santé des créatures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for creatures' health recovery. Higher values increase the recovery rate (creatures heal faster)",
+        "Description": "Définit le facteur d'échelle pour la récupération de la santé des créatures. Des valeurs plus élevées augmentent le taux de récupération (les créatures guérissent plus vite).",
         "Keywords": "creature,health,recovery,multiplier,dinocharacterhealthrecoverymultiplier",
         "FieldName": "DinoCharacterHealthRecoveryMultiplier",
         "InputType": "number",
@@ -1698,10 +1698,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Creature Stamina Drain Multiplier",
+        "DisplayName": "Multiplicateur de drain d'endurance des créatures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for creatures' stamina consumption. Higher values increase stamina consumption (creatures get tired faster)",
+        "Description": "Définit le facteur d'échelle pour la consommation d'endurance des créatures. Des valeurs plus élevées augmentent la consommation d'endurance (les créatures se fatiguent plus vite).",
         "Keywords": "creature,stamina,drain,multiplier,dinocharacterstaminadrainmultiplier",
         "FieldName": "DinoCharacterStaminaDrainMultiplier",
         "InputType": "number",
@@ -1713,10 +1713,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Creature Damage Multiplier",
+        "DisplayName": "Multiplicateur de dégâts des créatures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for the damage that wild creatures cause with their attacks. The default value 1 causes normal damage. Higher values increase damage, lower values decrease it",
+        "Description": "Définit le facteur d'échelle pour les dégâts que les créatures sauvages infligent avec leurs attaques. La valeur par défaut 1 provoque des dégâts normaux. Les valeurs supérieures augmentent les dégâts, les valeurs inférieures les diminuent",
         "Keywords": "creature,damage,multiplier,dinodamagemultiplier",
         "FieldName": "DinoDamageMultiplier",
         "InputType": "number",
@@ -1728,10 +1728,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Creature Resistance Multiplier",
+        "DisplayName": "Multiplicateur de résistance des créatures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for wild creatures' damage resistance when attacked. The default value 1 causes normal damage. Higher values decrease resistance, increasing damage per attack. Lower values increase it, reducing damage per attack",
+        "Description": "Définit le facteur d'échelle pour la résistance aux dégâts des créatures sauvages lorsqu'elles sont attaquées. La valeur par défaut de 1 provoque des dégâts normaux. Des valeurs plus élevées diminuent la résistance, augmentant les dégâts par attaque. Les valeurs inférieures l'augmentent, ce qui réduit les dégâts par attaque",
         "Keywords": "creature,resistance,multiplier,dinoresistancemultiplier",
         "FieldName": "DinoResistanceMultiplier",
         "InputType": "number",
@@ -1743,10 +1743,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Creature Spawn Multiplier",
+        "DisplayName": "Multiplicateur d'apparition des créatures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for creature spawns. Higher values increase the number of creatures spawned throughout the server",
+        "Description": "Définit le facteur d'échelle pour l'apparition des créatures. Des valeurs plus élevées augmentent le nombre de créatures apparaissant sur l'ensemble du serveur.",
         "Keywords": "creature,spawn,multiplier,dinocountmultiplier",
         "FieldName": "DinoCountMultiplier",
         "InputType": "number",
@@ -1758,10 +1758,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "PvE Creature Decay Period Multiplier",
+        "DisplayName": "Multiplicateur de la période de décomposition des créatures en JcE",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Set the scaling factor for the unclaiming speed of creatures in PvE mode",
+        "Description": "Définir le facteur d'échelle pour la vitesse d'annulation des créatures en mode PvE",
         "Keywords": "pve,creature,decay,period,multiplier,pvedinodecayperiodmultiplier",
         "FieldName": "PvEDinoDecayPeriodMultiplier",
         "InputType": "number",
@@ -1773,10 +1773,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Structure Damage Multiplier",
+        "DisplayName": "Multiplicateur de dommages aux structures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for the damage that structures (spikewalls) cause with their attacks. The default value 1 causes normal damage. Higher values increase damage, lower values decrease it",
+        "Description": "Définit le facteur d'échelle pour les dégâts que les structures (spikewalls) causent avec leurs attaques. La valeur par défaut de 1 provoque des dégâts normaux. Les valeurs supérieures augmentent les dégâts, les valeurs inférieures les diminuent",
         "Keywords": "structure,damage,multiplier,structuredamagemultiplier",
         "FieldName": "StructureDamageMultiplier",
         "InputType": "number",
@@ -1788,10 +1788,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Structure Resistance Multiplier",
+        "DisplayName": "Multiplicateur de résistance des structures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for structures' damage resistance when attacked. The default value 1 causes normal damage. Higher values decrease resistance, increasing damage per attack. Lower values increase it, reducing damage per attack",
+        "Description": "Définit le facteur d'échelle pour la résistance aux dégâts des structures lorsqu'elles sont attaquées. La valeur par défaut 1 provoque des dégâts normaux. Des valeurs plus élevées diminuent la résistance, augmentant les dégâts par attaque. Les valeurs inférieures l'augmentent, ce qui réduit les dégâts par attaque",
         "Keywords": "structure,resistance,multiplier,structureresistancemultiplier",
         "FieldName": "StructureResistanceMultiplier",
         "InputType": "number",
@@ -1803,10 +1803,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "PvE Structure Decay Period Multiplier",
+        "DisplayName": "Multiplicateur de la période de décomposition de la structure JcE",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for the decay rate of player structures in PvE mode",
+        "Description": "Définit le facteur d'échelle pour le taux de décomposition des structures des joueurs en mode JcE.",
         "Keywords": "pve,structure,decay,pvestructuredecayperiodmultiplier",
         "FieldName": "PvEStructureDecayPeriodMultiplier",
         "InputType": "number",
@@ -1818,10 +1818,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Maximum Platform Structures Multiplier",
+        "DisplayName": "Multiplicateur des structures de la plate-forme maximale",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for the maximum number of structures placeable on platform saddles and rafts. NOTE: high values may lead to lag",
+        "Description": "Définit le facteur d'échelle pour le nombre maximum de structures pouvant être placées sur les selles et les radeaux des plates-formes. REMARQUE : des valeurs élevées peuvent entraîner un décalage",
         "Keywords": "saddle,platform,raft,structure,multiplier,perplatformmaxstructuresmultiplier",
         "FieldName": "PerPlatformMaxStructuresMultiplier",
         "InputType": "number",
@@ -1833,10 +1833,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Auto Structure Destruction Multiplier",
+        "DisplayName": "Multiplicateur de destruction de structure automatique",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor, relative to the period for allowing claims, to automatically destroy structures if there has been no near tribe player during that time",
+        "Description": "Définit le facteur d'échelle, relatif à la période d'autorisation des réclamations, pour détruire automatiquement les structures s'il n'y a pas eu de joueur proche de la tribu pendant cette période.",
         "Keywords": "time,tribe,structure,destroy,autodestroyoldstructuresmultiplier",
         "FieldName": "AutoDestroyOldStructuresMultiplier",
         "InputType": "number",
@@ -1848,10 +1848,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Harvest Amount Multiplier",
+        "DisplayName": "Multiplicateur du montant de la récolte",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for yields from all harvesting activities (chopping down trees, picking berries, carving carcasses, mining rocks, etc). Higher values increase the amount harvested with each strike",
+        "Description": "Définit le facteur d'échelle pour les rendements de toutes les activités de récolte (couper des arbres, cueillir des baies, découper des carcasses, extraire des rochers, etc.) Des valeurs plus élevées augmentent la quantité récoltée à chaque coup.",
         "Keywords": "harvest,yield,multiplier,harvestamountmultiplier",
         "FieldName": "HarvestAmountMultiplier",
         "InputType": "number",
@@ -1863,10 +1863,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Harvest Health Multiplier",
+        "DisplayName": "Multiplicateur de santé de la récolte",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for the \"health\" of harvestable items (trees, rocks, carcasses, etc). Higher values increase the number of strikes needed to destroy them, increasing harvest yields",
+        "Description": "Définit le facteur d'échelle pour la « santé » des objets récoltables (arbres, rochers, carcasses, etc.). Des valeurs plus élevées augmentent le nombre de coups nécessaires pour les détruire, ce qui augmente le rendement des récoltes.",
         "Keywords": "harvest,health,multiplier,harvesthealthmultiplier",
         "FieldName": "HarvestHealthMultiplier",
         "InputType": "number",
@@ -1878,10 +1878,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Resources Respawn Period Multiplier",
+        "DisplayName": "Multiplicateur de la période de réapparition des ressources",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for the resource node respawn rate (trees, rocks, bushes, etc). Lower values cause nodes to respawn more frequently",
+        "Description": "Définit le facteur d'échelle pour le taux de réapparition des nœuds de ressources (arbres, rochers, buissons, etc.). Des valeurs plus faibles entraînent une réapparition plus fréquente des nœuds.",
         "Keywords": "resource,respawn,period,multiplier,resourcesrespawnperiodmultiplier",
         "FieldName": "ResourcesRespawnPeriodMultiplier",
         "InputType": "number",
@@ -1893,10 +1893,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Creature Taming Speed Multiplier",
+        "DisplayName": "Multiplicateur de vitesse d'apprivoisement des créatures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for creature taming speed. Higher values make taming faster",
+        "Description": "Définit le facteur d'échelle pour la vitesse d'apprivoisement des créatures. Des valeurs plus élevées accélèrent l'apprivoisement",
         "Keywords": "taming,speed,multiplier,tamingspeedmultiplier",
         "FieldName": "TamingSpeedMultiplier",
         "InputType": "number",
@@ -1908,10 +1908,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Oxygen Swim Speed Multiplier",
+        "DisplayName": "Multiplicateur de vitesse de nage à l'oxygène",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Multipliers:tune:3",
-        "Description": "Sets the scaling factor for swim speed, relative to the level spent in oxygen",
+        "Description": "Définit le facteur d'échelle pour la vitesse de nage, par rapport au niveau passé dans l'oxygène.",
         "Keywords": "swim,speed,oxygen,oxygenswimspeedstatmultiplier",
         "FieldName": "OxygenSwimSpeedStatMultiplier",
         "InputType": "number",
@@ -1923,10 +1923,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Enable Structure Stasis Grid",
+        "DisplayName": "Activer la grille de stase de la structure",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, enables the structure stasis grid to improve server performance on large bases with lots of players. Structures are loaded based on grids with players. Not recommended for modded servers",
+        "Description": "Si cette option est activée, elle permet d'utiliser la grille de stase des structures afin d'améliorer les performances du serveur sur les grandes bases avec beaucoup de joueurs. Les structures sont chargées en fonction des grilles de joueurs. Non recommandé pour les serveurs moddés",
         "Keywords": "structure,stasis,grid,usestructurestasisgrid",
         "FieldName": "UseStructureStasisGrid",
         "InputType": "checkbox",
@@ -1940,10 +1940,10 @@
         }
     },
     {
-        "DisplayName": "Auto Destroy Structures",
+        "DisplayName": "Destruction des structures automatique",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, auto destruction of old structures will be enabled. The destruction timer can be adjusted with Auto Structure Destruction Multiplier",
+        "Description": "Si cette option est activée, la destruction automatique des anciennes structures sera activée. Le délai de destruction peut être ajusté à l'aide du multiplicateur de destruction automatique des structures.",
         "Keywords": "auto,destroy,structures,autodestroystructures",
         "FieldName": "AutoDestroyStructures",
         "InputType": "checkbox",
@@ -1957,10 +1957,10 @@
         }
     },
     {
-        "DisplayName": "Auto Destroy Core Structures Only",
+        "DisplayName": "Destruction automatique des structures principales uniquement",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, any non-core/non-foundation structures will not be auto destroyed (assuming Auto Destroy Structures is enabled), except if a floor they are on is auto destroyed",
+        "Description": "Si cette option est activée, les structures qui ne font pas partie du noyau ou des fondations ne seront pas détruites automatiquement (si la destruction automatique des structures est activée), sauf si l'étage sur lequel elles se trouvent est détruit automatiquement.",
         "Keywords": "auto,destroy,core,structures,onlyautodestroycorestructures",
         "FieldName": "OnlyAutoDestroyCoreStructures",
         "InputType": "checkbox",
@@ -1974,10 +1974,10 @@
         }
     },
     {
-        "DisplayName": "Only Auto Destroy Unsnapped Core Structures",
+        "DisplayName": "Destruction automatique uniquement des structures centrales non démantelées",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, only unsnapped core structures will decay (be auto destroyed). Useful for eliminating lone pillar/foundation spam on servers in PvP mode",
+        "Description": "Si cette option est activée, seules les structures centrales non encliquetées se décomposeront (seront autodétruites). Utile pour éliminer le spam des piliers/fondations solitaires sur les serveurs en mode JcJ.",
         "Keywords": "auto,destroy,unsnapped,core,structures,onlydecayunsnappedcorestructures",
         "FieldName": "OnlyDecayUnsnappedCoreStructures",
         "InputType": "checkbox",
@@ -1991,10 +1991,10 @@
         }
     },
     {
-        "DisplayName": "Disable PvE Structure Decay",
+        "DisplayName": "Désactiver la dégradation des structures en JcE",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, the gradual (7 days) decay of player structures will be disabled in PvE mode",
+        "Description": "Si cette option est activée, la dégradation progressive (7 jours) des structures des joueurs sera désactivée en mode JcE.",
         "Keywords": "pve,structure,decay,disablestructuredecaypve",
         "FieldName": "DisableStructureDecayPvE",
         "InputType": "checkbox",
@@ -2008,10 +2008,10 @@
         }
     },
     {
-        "DisplayName": "Enable PvP Structure Decay",
+        "DisplayName": "Activer la décomposition de la structure JcJ",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, the gradual decay of structures will be enabled in PvP mode",
+        "Description": "Si cette option est activée, la dégradation progressive des structures sera activée en mode JcJ.",
         "Keywords": "pvp,structure,decay,pvpstructuredecay",
         "FieldName": "PvPStructureDecay",
         "InputType": "checkbox",
@@ -2025,10 +2025,10 @@
         }
     },
     {
-        "DisplayName": "Fast Decay Unsnapped Core Structures",
+        "DisplayName": "Décroissance rapide Structures de base non dégagées",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, unsnapped foundations/pillars will decay at 5x speed",
+        "Description": "Si cette option est activée, les fondations/piliers non encastrés se décomposeront à une vitesse de 5x.",
         "Keywords": "fast,decay,unsnapped,core,structure,fastdecayunsnappedcorestructures",
         "FieldName": "FastDecayUnsnappedCoreStructures",
         "InputType": "checkbox",
@@ -2042,10 +2042,10 @@
         }
     },
     {
-        "DisplayName": "Structure Damage Repair Cooldown",
+        "DisplayName": "Délai de réparation des dommages structurels",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "Sets the cooldown period on structure repair from the last time damaged. 0 =  disabled (structures can always be repaired)",
+        "Description": "Définit la période de refroidissement pour la réparation des structures à partir de la dernière fois qu'elles ont été endommagées. 0 = désactivé (les structures peuvent toujours être réparées)",
         "Keywords": "structure,damage,repair,cooldown,structuredamagerepaircooldown",
         "FieldName": "StructureDamageRepairCooldown",
         "InputType": "number",
@@ -2058,10 +2058,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Maximum Platform Saddle Limit",
+        "DisplayName": "Limite maximale de la selle de la plate-forme",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "Sets the maximum number of platformed-creatures/rafts allowed on the server",
+        "Description": "Définit le nombre maximum de créatures/rafts à plate-forme autorisés sur le serveur.",
         "Keywords": "maximum,platform,saddle,structure,limit,maxplatformsaddlestructurelimit",
         "FieldName": "MaxPlatformSaddleStructureLimit",
         "InputType": "number",
@@ -2073,10 +2073,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Platform Saddle Cost",
+        "DisplayName": "Coût de la selle de plateforme",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "Sets the number of \"tamed creature slots\" a platform saddle will use",
+        "Description": "Définit le nombre de « emplacements pour créatures apprivoisées » qu'une selle de plate-forme utilisera.",
         "Keywords": "tamed,creature,cost,saddle,platform,personaltameddinossaddlestructurecost",
         "FieldName": "PersonalTamedDinosSaddleStructureCost",
         "InputType": "number",
@@ -2088,10 +2088,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Override Structure Platform Prevention",
+        "DisplayName": "Structure de neutralisation Prévention de la plate-forme",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, turret and spike structures will be buildable and functional on platform saddles",
+        "Description": "Si elles sont définies, les structures de tourelles et de pics seront constructibles et fonctionnelles sur les selles des plates-formes.",
         "Keywords": "override,structure,platform,overridestructureplatformprevention",
         "FieldName": "OverrideStructurePlatformPrevention",
         "InputType": "checkbox",
@@ -2105,10 +2105,10 @@
         }
     },
     {
-        "DisplayName": "Disable Building In Rich Resource Areas",
+        "DisplayName": "Désactiver la construction dans les zones riches en ressources",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, completely disables building in specific resource-rich areas, in particular setup on The Island around the major mountains",
+        "Description": "S'il est activé, il désactive complètement la construction dans certaines zones riches en ressources, en particulier sur l'île, autour des principales montagnes.",
         "Keywords": "rich,resources,block,building,extra,structure,prevention,enableextrastructurepreventionvolumes",
         "FieldName": "EnableExtraStructurePreventionVolumes",
         "InputType": "checkbox",
@@ -2122,10 +2122,10 @@
         }
     },
     {
-        "DisplayName": "Allow Crate Spawns On Structures",
+        "DisplayName": "Autoriser l'apparition de caisses sur les structures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, from-the-air supply crates can appear on top of structures, rather than being prevented by structures",
+        "Description": "Si cette option est activée, les caisses de ravitaillement aériennes peuvent apparaître au-dessus des structures, au lieu d'être empêchées par ces dernières.",
         "Keywords": "crates,structures,allowcratespawnsontopofstructures",
         "FieldName": "AllowCrateSpawnsOnTopOfStructures",
         "InputType": "checkbox",
@@ -2139,10 +2139,10 @@
         }
     },
     {
-        "DisplayName": "Allow PvE Structures At Supply Drops",
+        "DisplayName": "Autoriser les structures JcE aux points de ravitaillement",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, building near supply drop points will be allowed in PvE mode",
+        "Description": "Si cette option est activée, la construction à proximité des points de ravitaillement sera autorisée en mode JcE.",
         "Keywords": "pve,supply,drops,structures,pveallowstructuresatsupplydrops",
         "FieldName": "PvEAllowStructuresAtSupplyDrops",
         "InputType": "checkbox",
@@ -2156,10 +2156,10 @@
         }
     },
     {
-        "DisplayName": "Disable Structure Placement Collision",
+        "DisplayName": "Désactiver la collision de placement de structure",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Structures:home:4",
-        "Description": "If set, allows for structures to clip into the terrain",
+        "Description": "S'il est activé, il permet aux structures de s'accrocher au terrain.",
         "Keywords": "structure,placement,collision,bdisablestructureplacementcollision",
         "FieldName": "bDisableStructurePlacementCollision",
         "InputType": "checkbox",
@@ -2173,10 +2173,10 @@
         }
     },
     {
-        "DisplayName": "Cluster Directory Override",
+        "DisplayName": "Remplacement du répertoire du cluster",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Clusters:share:5",
-        "Description": "Sets the path to a shared cluster directory for a server cluster. The cluster directory must be accessible to all cluster servers. If the server is in Docker, the directory must be mounted in the container",
+        "Description": "Définit le chemin d'accès à un répertoire cluster partagé pour une grappe de serveurs. Le répertoire de cluster doit être accessible à tous les serveurs de cluster. Si le serveur est dans Docker, le répertoire doit être monté dans le conteneur",
         "Keywords": "cluster,directory,override,clusterdiroverride",
         "FieldName": "ClusterDirOverride",
         "InputType": "text",
@@ -2187,10 +2187,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Cluster ID",
+        "DisplayName": "ID du cluster",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Clusters:share:5",
-        "Description": "Sets the cluster ID for a server cluster. The cluster ID must be the same on all servers in the cluster",
+        "Description": "Définit l'ID du cluster pour des serveurs. L'ID du cluster doit être le même sur tous les serveurs du cluster.",
         "Keywords": "cluster,id,clusterid",
         "FieldName": "clusterid",
         "InputType": "text",
@@ -2201,10 +2201,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Prevent Character Download",
+        "DisplayName": "Empêcher le téléchargement de caractères",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Clusters:share:5",
-        "Description": "If set, prevents the download of characters from a cluster to the server",
+        "Description": "Si cette option est activée, elle empêche le téléchargement de caractères d'un cluster vers le serveur.",
         "Keywords": "prevent,download,tribute,characters,data,transfer,cluster,notributedownloads",
         "FieldName": "noTributeDownloads",
         "InputType": "checkbox",
@@ -2218,10 +2218,10 @@
         }
     },
     {
-        "DisplayName": "Prevent Survivor Download",
+        "DisplayName": "Prévenir le téléchargement de survivants",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Clusters:share:5",
-        "Description": "If set, prevents the download of survivors from a cluster to the server",
+        "Description": "Si cette option est activée, elle empêche le téléchargement des survivants d'un cluster vers le serveur.",
         "Keywords": "prevent,download,survivor,data,transfer,cluster,preventdownloadsurvivors",
         "FieldName": "PreventDownloadSurvivors",
         "InputType": "checkbox",
@@ -2235,10 +2235,10 @@
         }
     },
     {
-        "DisplayName": "Prevent Item Download",
+        "DisplayName": "Prévenir le téléchargement des objets",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Clusters:share:5",
-        "Description": "If set, prevents the download of items from a cluster to the server",
+        "Description": "Si cette option est activée, elle empêche le téléchargement d'éléments d'un cluster vers le serveur.",
         "Keywords": "prevent,download,items,data,transfer,cluster,preventdownloaditems",
         "FieldName": "PreventDownloadItems",
         "InputType": "checkbox",
@@ -2252,10 +2252,10 @@
         }
     },
     {
-        "DisplayName": "Prevent Creature Download",
+        "DisplayName": "Empêcher le téléchargement de créatures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Clusters:share:5",
-        "Description": "If set, prevents the download of tamed creatures from a cluster to the server",
+        "Description": "Si cette option est activée, elle empêche le téléchargement de créatures apprivoisées d'un cluster vers le serveur.",
         "Keywords": "prevent,download,creatures,data,transfer,cluster,preventdownloaddinos",
         "FieldName": "PreventDownloadDinos",
         "InputType": "checkbox",
@@ -2269,10 +2269,10 @@
         }
     },
     {
-        "DisplayName": "Prevent Survivor Upload",
+        "DisplayName": "Prévenir le chargement des survivants",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Clusters:share:5",
-        "Description": "If set, prevents the upload of survivors from the server to a cluster",
+        "Description": "Si cette option est activée, elle empêche le téléchargement des survivants du serveur vers un cluster.",
         "Keywords": "prevent,upload,survivor,data,transfer,cluster,preventuploadsurvivors",
         "FieldName": "PreventUploadSurvivors",
         "InputType": "checkbox",
@@ -2286,10 +2286,10 @@
         }
     },
     {
-        "DisplayName": "Prevent Item Upload",
+        "DisplayName": "Empêcher le téléversement d'un objet",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Clusters:share:5",
-        "Description": "If set, prevents the upload of items from the server to a cluster",
+        "Description": "Si cette option est activée, elle empêche le téléchargement d'éléments du serveur vers un cluster.",
         "Keywords": "prevent,upload,items,data,transfer,cluster,preventuploaditems",
         "FieldName": "PreventUploadItems",
         "InputType": "checkbox",
@@ -2303,10 +2303,10 @@
         }
     },
     {
-        "DisplayName": "Prevent Creature Upload",
+        "DisplayName": "Empêcher le téléversement de créatures",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Clusters:share:5",
-        "Description": "If set, prevents the upload of tamed creatures from the server to a cluster",
+        "Description": "Si cette option est activée, elle empêche le téléchargement de créatures apprivoisées depuis le serveur vers un cluster.",
         "Keywords": "prevent,upload,creatures,data,transfer,cluster,preventuploaddinos",
         "FieldName": "PreventUploadDinos",
         "InputType": "checkbox",
@@ -2320,10 +2320,10 @@
         }
     },
     {
-        "DisplayName": "Download Backup Exclusion Files",
+        "DisplayName": "Télécharger les fichiers d'exclusion de la sauvegarde",
         "Category": "Backups",
         "Subcategory": "Storage Limits:storage",
-        "Description": "If enabled, default backup exclusion configuration files are downloaded when the server is updated, to save space on AMP backups. If disabled, manually delete any .backupExclude files in the server base directory and in the ShooterGame directory to prevent backup exclusions",
+        "Description": "Si cette option est activée, les fichiers de configuration d'exclusion de sauvegarde par défaut sont téléchargés lors de la mise à jour du serveur, afin d'économiser de l'espace lors des sauvegardes AMP. S'ils sont désactivés, supprimez manuellement tous les fichiers .backupExclude dans le répertoire de base du serveur et dans le répertoire ShooterGame pour empêcher les exclusions de sauvegarde.",
         "Keywords": "backup,exclude,exclusion,file",
         "FieldName": "backupExclude",
         "InputType": "checkbox",
